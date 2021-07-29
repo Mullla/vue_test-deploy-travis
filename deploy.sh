@@ -10,7 +10,7 @@ npm run build
 cd dist
 
 git init
-git add dist -f
+git add -A
 git commit -m 'deploy ⏳'
 
 git push -f git@github.com:mullla/vue-repo.git master:gh-pages
